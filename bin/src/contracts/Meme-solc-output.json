@@ -1,0 +1,82 @@
+{
+    "contracts": {
+        "/home/laksh/meme/src/contracts/Meme.sol": {
+            "Meme": {
+                "abi": [],
+                "devdoc": {
+                    "methods": {}
+                },
+                "evm": {
+                    "bytecode": {
+                        "linkReferences": {},
+                        "object": "6080604052348015600f57600080fd5b50603580601d6000396000f3fe6080604052600080fdfea165627a7a72305820d0a41cb5233669edf4ea52f4704e688c6d7e6652fde5c589fd43e83a956c2b850029",
+                        "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x35 DUP1 PUSH1 0x1D PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG1 PUSH6 0x627A7A723058 KECCAK256 0xd0 LOG4 SHR 0xb5 0x23 CALLDATASIZE PUSH10 0xEDF4EA52F4704E688C6D PUSH31 0x6652FDE5C589FD43E83A956C2B850029000000000000000000000000000000 ",
+                        "sourceMap": "24:92:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;24:92:0;;;;;;;"
+                    },
+                    "deployedBytecode": {
+                        "linkReferences": {},
+                        "object": "6080604052600080fdfea165627a7a72305820d0a41cb5233669edf4ea52f4704e688c6d7e6652fde5c589fd43e83a956c2b850029",
+                        "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG1 PUSH6 0x627A7A723058 KECCAK256 0xd0 LOG4 SHR 0xb5 0x23 CALLDATASIZE PUSH10 0xEDF4EA52F4704E688C6D PUSH31 0x6652FDE5C589FD43E83A956C2B850029000000000000000000000000000000 ",
+                        "sourceMap": "24:92:0:-;;;;;"
+                    },
+                    "gasEstimates": {
+                        "creation": {
+                            "codeDepositCost": "10600",
+                            "executionCost": "66",
+                            "totalCost": "10666"
+                        }
+                    },
+                    "methodIdentifiers": {}
+                },
+                "metadata": "{\"compiler\":{\"version\":\"0.5.0+commit.1d4f565a\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/home/laksh/meme/src/contracts/Meme.sol\":\"Meme\"},\"evmVersion\":\"byzantium\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/laksh/meme/src/contracts/Meme.sol\":{\"keccak256\":\"0xa57357b3627400f027fcefc3e9d52c62be7fa52172f1a01bdbb08b33b8249c2a\",\"urls\":[\"bzzr://afc348e8063bd320fe7b2af4a4902c4f7410ee0fba42dec427121f616d0ebc18\"]}},\"version\":1}",
+                "userdoc": {
+                    "methods": {}
+                }
+            }
+        }
+    },
+    "sources": {
+        "/home/laksh/meme/src/contracts/Meme.sol": {
+            "ast": {
+                "absolutePath": "/home/laksh/meme/src/contracts/Meme.sol",
+                "exportedSymbols": {
+                    "Meme": [
+                        2
+                    ]
+                },
+                "id": 3,
+                "nodeType": "SourceUnit",
+                "nodes": [
+                    {
+                        "id": 1,
+                        "literals": [
+                            "solidity",
+                            "0.5",
+                            ".0"
+                        ],
+                        "nodeType": "PragmaDirective",
+                        "src": "0:22:0"
+                    },
+                    {
+                        "baseContracts": [],
+                        "contractDependencies": [],
+                        "contractKind": "contract",
+                        "documentation": null,
+                        "fullyImplemented": true,
+                        "id": 2,
+                        "linearizedBaseContracts": [
+                            2
+                        ],
+                        "name": "Meme",
+                        "nodeType": "ContractDefinition",
+                        "nodes": [],
+                        "scope": 3,
+                        "src": "24:92:0"
+                    }
+                ],
+                "src": "0:116:0"
+            },
+            "id": 0
+        }
+    }
+}
